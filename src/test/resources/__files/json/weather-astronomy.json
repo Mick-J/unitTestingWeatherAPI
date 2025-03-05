@@ -1,0 +1,19 @@
+{
+  "location": {
+    "name": "Brussels",
+    "region": "",
+    "country": "Belgium",
+    "localtime": "2025-03-04 21:05"
+  },
+  "astronomy": {
+      "astro" : {
+        "sunrise": "07:20 AM",
+        "sunset": "06:29 PM",
+        "moonrise": "08:49 AM",
+        "moonset": "No moonset",
+        "moon_phase": "Waxing Crescent",
+        "is_moon_up": false,
+        "is_sun_up": false
+      }
+  }
+}

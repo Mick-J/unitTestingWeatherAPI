@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/current.json",
+    "queryParameters": {
+      "q": { "equalTo": "Paris" },
+      "key": { "matches": ".*" },
+      "aqi": { "equalTo": "yes" }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "json/weather-current.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

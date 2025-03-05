@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/alerts.json"
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "json/weather-alerts.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

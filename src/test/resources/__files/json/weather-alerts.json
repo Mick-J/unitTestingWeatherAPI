@@ -1,0 +1,91 @@
+{
+  "location": {
+    "name": "New York",
+    "region": "New York",
+    "country": "United States of America",
+    "lat": 40.7142,
+    "lon": -74.0064,
+    "tz_id": "America/New_York",
+    "localtime_epoch": 1741107875,
+    "localtime": "2025-03-04 12:04"
+  },
+  "alerts": {
+    "alert": [
+      {
+        "headline": "Flood Watch issued March 4 at 5:09AM EST until March 6 at 1:00PM EST by NWS Buffalo NY",
+        "msgtype": "Update",
+        "severity": "Severe",
+        "urgency": "Future",
+        "areas": "Niagara; Orleans; Monroe; Wayne; Northern Cayuga; Oswego; Jefferson; Lewis; Northern Erie; Genesee; Wyoming; Livingston; Ontario; Chautauqua; Cattaraugus; Allegany; Southern Erie",
+        "category": "Met",
+        "certainty": "Possible",
+        "event": "Flood Watch",
+        "note": "",
+        "effective": "2025-03-04T05:09:00-05:00",
+        "expires": "2025-03-04T15:00:00-05:00",
+        "desc": "* WHAT...Flooding caused by significant snowmelt and a general half\nto three quarters of an inch of rainfall.\n\n* WHERE...Western and north central New York, including the\nfollowing counties, in central New York, Jefferson, Lewis,\nNorthern Cayuga and Oswego. In western New York, Allegany,\nCattaraugus, Chautauqua, Genesee, Livingston, Monroe, Niagara,\nNorthern Erie, Ontario, Orleans, Southern Erie, Wayne and Wyoming.\n\n* WHEN...From 1 PM EST this afternoon into Thursday afternoon.\n\n* IMPACTS...Excessive runoff from significant snowmelt and a general\nhalf inch of rain may result in flooding of rivers, smaller\ntributaries, and other low-lying and flood-prone locations. The\nmost prone areas for flooding will be where ice jams typically\ndevelop. The greatest risk for ice jam flooding will be later\ntonight through Wednesday with the risk for river based flooding\ncoming mainly Wednesday night and Thursday.\n\n* ADDITIONAL DETAILS...\n- An intense storm system moving from the central plains across\nthe central Great Lakes will send a surge of Spring like\nwarmth the across our region through Wednesday. Temperatures\nwill soar into the 50s over the western counties today with\nthe mercury remaining well above freezing tonight.\nTemperatures will then climb well into the 50s for the bulk\nof the region on Wednesday while being accompanied by a\ngeneral half to three quarters of an inch of rainfall. The\nfast melt off of the snowpack will combine with this rainfall\nto cause significant rises to area tributaries with flooding\nbecoming possible. Flooding concerns will be particularly\nelevated in areas where tributaries are prone to ice jam\nflooding.\n- http://www.weather.gov/safety/flood\n",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop."
+      },
+      {
+        "headline": "",
+        "msgtype": "Alert",
+        "severity": "Unknown",
+        "urgency": "Unknown",
+        "areas": "Montgomery",
+        "category": "Met",
+        "certainty": "Unknown",
+        "event": "Test Message",
+        "note": "This is only a test for monitoring of vital dissemination systems.",
+        "effective": "2025-03-04T12:29:09-00:00",
+        "expires": "2025-03-04T12:39:09-00:00",
+        "desc": "Monitoring message only. Please disregard.",
+        "instruction": "Monitoring message only. Please disregard."
+      },
+      {
+        "headline": "Flood Watch issued March 4 at 5:09AM EST until March 6 at 1:00PM EST by NWS Buffalo NY",
+        "msgtype": "Update",
+        "severity": "Severe",
+        "urgency": "Future",
+        "areas": "Niagara; Orleans; Monroe; Wayne; Northern Cayuga; Oswego; Jefferson; Lewis; Northern Erie; Genesee; Wyoming; Livingston; Ontario; Chautauqua; Cattaraugus; Allegany; Southern Erie",
+        "category": "Met",
+        "certainty": "Possible",
+        "event": "Flood Watch",
+        "note": "",
+        "effective": "2025-03-04T05:09:00-05:00",
+        "expires": "2025-03-04T15:00:00-05:00",
+        "desc": "* WHAT...Flooding caused by significant snowmelt and a general half\nto three quarters of an inch of rainfall.\n\n* WHERE...Western and north central New York, including the\nfollowing counties, in central New York, Jefferson, Lewis,\nNorthern Cayuga and Oswego. In western New York, Allegany,\nCattaraugus, Chautauqua, Genesee, Livingston, Monroe, Niagara,\nNorthern Erie, Ontario, Orleans, Southern Erie, Wayne and Wyoming.\n\n* WHEN...From 1 PM EST this afternoon into Thursday afternoon.\n\n* IMPACTS...Excessive runoff from significant snowmelt and a general\nhalf inch of rain may result in flooding of rivers, smaller\ntributaries, and other low-lying and flood-prone locations. The\nmost prone areas for flooding will be where ice jams typically\ndevelop. The greatest risk for ice jam flooding will be later\ntonight through Wednesday with the risk for river based flooding\ncoming mainly Wednesday night and Thursday.\n\n* ADDITIONAL DETAILS...\n- An intense storm system moving from the central plains across\nthe central Great Lakes will send a surge of Spring like\nwarmth the across our region through Wednesday. Temperatures\nwill soar into the 50s over the western counties today with\nthe mercury remaining well above freezing tonight.\nTemperatures will then climb well into the 50s for the bulk\nof the region on Wednesday while being accompanied by a\ngeneral half to three quarters of an inch of rainfall. The\nfast melt off of the snowpack will combine with this rainfall\nto cause significant rises to area tributaries with flooding\nbecoming possible. Flooding concerns will be particularly\nelevated in areas where tributaries are prone to ice jam\nflooding.\n- http://www.weather.gov/safety/flood\n",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop."
+      },
+      {
+        "headline": "Flood Watch issued March 4 at 5:09AM EST until March 6 at 1:00PM EST by NWS Buffalo NY",
+        "msgtype": "Update",
+        "severity": "Severe",
+        "urgency": "Future",
+        "areas": "Niagara; Orleans; Monroe; Wayne; Northern Cayuga; Oswego; Jefferson; Lewis; Northern Erie; Genesee; Wyoming; Livingston; Ontario; Chautauqua; Cattaraugus; Allegany; Southern Erie",
+        "category": "Met",
+        "certainty": "Possible",
+        "event": "Flood Watch",
+        "note": "",
+        "effective": "2025-03-04T05:09:00-05:00",
+        "expires": "2025-03-04T15:00:00-05:00",
+        "desc": "* WHAT...Flooding caused by significant snowmelt and a general half\nto three quarters of an inch of rainfall.\n\n* WHERE...Western and north central New York, including the\nfollowing counties, in central New York, Jefferson, Lewis,\nNorthern Cayuga and Oswego. In western New York, Allegany,\nCattaraugus, Chautauqua, Genesee, Livingston, Monroe, Niagara,\nNorthern Erie, Ontario, Orleans, Southern Erie, Wayne and Wyoming.\n\n* WHEN...From 1 PM EST this afternoon into Thursday afternoon.\n\n* IMPACTS...Excessive runoff from significant snowmelt and a general\nhalf inch of rain may result in flooding of rivers, smaller\ntributaries, and other low-lying and flood-prone locations. The\nmost prone areas for flooding will be where ice jams typically\ndevelop. The greatest risk for ice jam flooding will be later\ntonight through Wednesday with the risk for river based flooding\ncoming mainly Wednesday night and Thursday.\n\n* ADDITIONAL DETAILS...\n- An intense storm system moving from the central plains across\nthe central Great Lakes will send a surge of Spring like\nwarmth the across our region through Wednesday. Temperatures\nwill soar into the 50s over the western counties today with\nthe mercury remaining well above freezing tonight.\nTemperatures will then climb well into the 50s for the bulk\nof the region on Wednesday while being accompanied by a\ngeneral half to three quarters of an inch of rainfall. The\nfast melt off of the snowpack will combine with this rainfall\nto cause significant rises to area tributaries with flooding\nbecoming possible. Flooding concerns will be particularly\nelevated in areas where tributaries are prone to ice jam\nflooding.\n- http://www.weather.gov/safety/flood\n",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop."
+      },
+      {
+        "headline": "Flood Watch issued March 4 at 5:09AM EST until March 6 at 1:00PM EST by NWS Buffalo NY",
+        "msgtype": "Update",
+        "severity": "Severe",
+        "urgency": "Future",
+        "areas": "Niagara; Orleans; Monroe; Wayne; Northern Cayuga; Oswego; Jefferson; Lewis; Northern Erie; Genesee; Wyoming; Livingston; Ontario; Chautauqua; Cattaraugus; Allegany; Southern Erie",
+        "category": "Met",
+        "certainty": "Possible",
+        "event": "Flood Watch",
+        "note": "",
+        "effective": "2025-03-04T05:09:00-05:00",
+        "expires": "2025-03-04T15:00:00-05:00",
+        "desc": "* WHAT...Flooding caused by significant snowmelt and a general half\nto three quarters of an inch of rainfall.\n\n* WHERE...Western and north central New York, including the\nfollowing counties, in central New York, Jefferson, Lewis,\nNorthern Cayuga and Oswego. In western New York, Allegany,\nCattaraugus, Chautauqua, Genesee, Livingston, Monroe, Niagara,\nNorthern Erie, Ontario, Orleans, Southern Erie, Wayne and Wyoming.\n\n* WHEN...From 1 PM EST this afternoon into Thursday afternoon.\n\n* IMPACTS...Excessive runoff from significant snowmelt and a general\nhalf inch of rain may result in flooding of rivers, smaller\ntributaries, and other low-lying and flood-prone locations. The\nmost prone areas for flooding will be where ice jams typically\ndevelop. The greatest risk for ice jam flooding will be later\ntonight through Wednesday with the risk for river based flooding\ncoming mainly Wednesday night and Thursday.\n\n* ADDITIONAL DETAILS...\n- An intense storm system moving from the central plains across\nthe central Great Lakes will send a surge of Spring like\nwarmth the across our region through Wednesday. Temperatures\nwill soar into the 50s over the western counties today with\nthe mercury remaining well above freezing tonight.\nTemperatures will then climb well into the 50s for the bulk\nof the region on Wednesday while being accompanied by a\ngeneral half to three quarters of an inch of rainfall. The\nfast melt off of the snowpack will combine with this rainfall\nto cause significant rises to area tributaries with flooding\nbecoming possible. Flooding concerns will be particularly\nelevated in areas where tributaries are prone to ice jam\nflooding.\n- http://www.weather.gov/safety/flood\n",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop."
+      }
+    ]
+  }
+}

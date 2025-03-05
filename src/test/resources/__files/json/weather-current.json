@@ -1,0 +1,15 @@
+{
+  "location": {
+    "name": "Paris",
+    "region": "Ile-de-France",
+    "country": "France",
+    "localtime": "2025-03-04 11:39"
+  },
+  "current": {
+    "temp_c": 7.2,
+    "condition": {
+      "text": "Sunny"
+    },
+    "wind_kph": 7.6
+  }
+}

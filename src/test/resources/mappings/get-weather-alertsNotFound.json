@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/alerts.json",
+    "queryParameters": {
+      "q": { "equalTo": "Unknown" },
+      "key": { "matches": ".*" }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

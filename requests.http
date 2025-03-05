@@ -1,0 +1,9 @@
+###
+GET http://localhost:8080/current.json?city=Paris
+
+###
+GET http://localhost:8080/alerts.json?city=new york
+###
+GET http://localhost:8080/astronomy.json?city=Brussels
+
+

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/current.json",
+    "queryParameters": {
+      "q": { "equalTo": "UnknownCity" },
+      "key": { "matches": ".*" },
+      "aqi": { "equalTo": "yes" }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
