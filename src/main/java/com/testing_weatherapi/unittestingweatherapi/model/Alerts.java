@@ -1,7 +1,5 @@
 package com.testing_weatherapi.unittestingweatherapi.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.ArrayList;
 import java.util.List;
 

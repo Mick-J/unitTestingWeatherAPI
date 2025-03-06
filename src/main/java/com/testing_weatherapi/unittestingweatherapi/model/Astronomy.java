@@ -1,6 +1,5 @@
 package com.testing_weatherapi.unittestingweatherapi.model;
 
-
 public class Astronomy {
     private Location location;
     private String sunrise;

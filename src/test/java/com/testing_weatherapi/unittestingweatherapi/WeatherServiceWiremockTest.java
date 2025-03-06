@@ -25,7 +25,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@WireMockTest(httpPort = 9999)
+@WireMockTest(httpPort = 9999)  // We set the port of wiremock to 9999 instead of using a random port
 @TestPropertySource(locations = "classpath:test.properties")
 public class WeatherServiceWiremockTest {
     @Autowired
@@ -34,7 +34,7 @@ public class WeatherServiceWiremockTest {
     @Test
     @DisplayName("Test Get Weather Record - Success")
     void testGetWeatherRecordSuccess() {
-            // Mock response from Weather API
+            // Mock response from Weather data
             stubFor(get(urlEqualTo("/current.json"))
                     .withQueryParam("key", matching(".*")) // Match any key
                     .withQueryParam("q", equalTo("Paris"))
@@ -86,6 +86,7 @@ public class WeatherServiceWiremockTest {
     @Test
     @DisplayName("Test Get Astronomy Record - Success")
     void testGetAstronomyRecordSuccess() {
+        // Mock response from Weather-astronomy data
         stubFor(get(urlEqualTo("/astronomy.json"))
                 .withQueryParam("key", matching(".*")) // Match any key
                 .withQueryParam("q", equalTo("Brussels"))
@@ -120,7 +121,7 @@ public class WeatherServiceWiremockTest {
     @Test
     @DisplayName("Test Get Astronomy Record - Not Found")
     void testGetAstronomyRecordNotFound() {
-        // Mock response from Weather API for a non-existent city
+        // Mock response from Weather API astronomy for a non-existent city
         stubFor(get(urlEqualTo("/astronomy.json"))
                 .withQueryParam("key", matching(".*")) // Match any key
                 .withQueryParam("q", equalTo("Unknown"))
@@ -140,6 +141,7 @@ public class WeatherServiceWiremockTest {
     @Test
     @DisplayName("Test Get Alerts Records - Success")
     void testGetAlertsRecordSuccess() {
+        // Mock response from Weather alerts data
         stubFor(get(urlEqualTo("/alerts.json"))
                 .withQueryParam("key", matching(".*")) // Match any key
                 .withQueryParam("q", equalTo("New York"))
@@ -179,12 +181,13 @@ public class WeatherServiceWiremockTest {
         Alerts alerts = response.getBody();
         assertNotNull(alerts);
 
+        // assert single alert return data
         // check location data
         assertEquals("New York", alerts.getLocation().getCity(), "City Shoud be New York");
         assertEquals("New York", alerts.getLocation().getRegion(), "Region Shoud be New York");
         assertEquals("United States of America", alerts.getLocation().getCountry(), "Country Shoud be United States of America");
         assertEquals("2025-03-04 12:04", alerts.getLocation().getLocaltime(), "Localtime Shoud be 2025-03-04 12:04");
-        // check second alert data
+        // check second alert data inside alert list returned
         assertEquals("", alerts.getAlerts().get(1).getHeadline(), "Headline Shoud be empty");
         assertEquals("Unknown", alerts.getAlerts().get(1).getSeverity(), "Severity Shoud be Unknown");
         assertEquals("Montgomery", alerts.getAlerts().get(1).getAreas(), "Areas Shoud be Montgomery");
@@ -196,7 +199,7 @@ public class WeatherServiceWiremockTest {
     @Test
     @DisplayName("Test Get Alert Record - Not Found")
     void testGetAlertRecordNotFound() {
-        // Mock response from Weather API for a non-existent city
+        // Mock response from Weather API alerts for a non-existent city
         stubFor(get(urlEqualTo("/alerts.json"))
                 .withQueryParam("key", matching(".*")) // Match any key
                 .withQueryParam("q", equalTo("Unknown"))
@@ -213,8 +216,7 @@ public class WeatherServiceWiremockTest {
         assertNull(response.getBody());
     }
 
-    // Test Configuration beans
-
+    // Test Configuration bean
     @TestConfiguration
     static class TestConfig {
         @Bean

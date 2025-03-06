@@ -65,7 +65,7 @@ public class WeatherServiceImpl implements WeatherService {
                     if (ex.getStatusCode() == HttpStatus.NOT_FOUND) {
                         return Mono.just(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
                     }
-                    return Mono.error(ex);
+                    return Mono.error(ex); // Other errors should still propagate
                 });
     }
 
@@ -111,7 +111,7 @@ public class WeatherServiceImpl implements WeatherService {
                     if (ex.getStatusCode() == HttpStatus.NOT_FOUND) {
                         return Mono.just(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
                     }
-                    return Mono.error(ex);
+                    return Mono.error(ex); // Other errors should still propagate
                 });
     }
 
